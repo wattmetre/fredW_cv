@@ -1,0 +1,81 @@
+.box{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+}
+html {
+background-image:url(imag/imagecv.jpeg);
+background-size: cover;
+}
+.box,.box1 ul li {
+line-height: 2em;
+}
+.box1{
+display:grid;
+grid-template-columns:1fr 1fr;
+}
+h1,h2{
+text-align: center;
+}
+#competencesG, #competencesN,#autres, #competencesS, #competencesB {
+background-color: gainsboro;
+margin: 5px;
+padding: 2em;
+}
+#formation,#parcours_professionnel{
+background-color:lavender;
+margin: 2em;
+padding: 2em;
+}
+#parcours_professionnel ul strong{
+color: red;
+}
+#formation ul strong{
+color: red;
+}
+#jaime ul{
+list-style-type: none;
+}
+#parcours_professionnel ul{
+list-style-type: none;
+}
+#formation ul{
+list-style-type: none;
+}
+#profil
+{
+background-color: lavender;
+border-color: black;
+border-style: ridge;
+margin: 20px;
+width: 50%;
+line-height: 2em;
+float: left;
+}
+#profil img{
+float: right;
+margin-right: 100px;
+}
+.intro{
+text-align: center;
+margin-left: 150px;
+width: 50%;
+ color: white;
+ font-size: 1.5em;
+}
+h1{
+margin: 2em;
+font-style: italic;
+font-size: 3em;
+}
+#jaime{
+background-color:gainsboro;
+margin-left: 10em;
+padding: 2em;
+width: 55%;
+line-height: 2em;
+}
+
+
+
+
+}
